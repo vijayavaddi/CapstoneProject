@@ -1,0 +1,954 @@
+2025-06-17 09:38:24 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-06-17 09:38:24 [main] INFO  c.h.d.c.SpecializationControllerTest - Starting SpecializationControllerTest using Java 21.0.4 with PID 16672 (started by vaddivijaya.lakshmi in C:\Users\vaddivijaya.lakshmi\IdeaProjects\CapstoneProject\DoctorPatientService)
+2025-06-17 09:38:24 [main] DEBUG c.h.d.c.SpecializationControllerTest - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-06-17 09:38:24 [main] INFO  c.h.d.c.SpecializationControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-06-17 09:38:29 [main] TRACE o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@47f2c722}
+2025-06-17 09:38:29 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 4599e745-2506-4b16-a6cb-7a00ab6c1e7c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-17 09:38:29 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-06-17 09:38:29 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-17 09:38:30 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-06-17 09:38:30 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-06-17 09:38:30 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-06-17 09:38:30 [main] INFO  c.h.d.c.SpecializationControllerTest - Started SpecializationControllerTest in 6.285 seconds (process running for 11.133)
+2025-06-17 09:38:30 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:30 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:30 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:30 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:30 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@7296fe0b]
+2025-06-17 09:38:30 [main] INFO  c.h.d.c.SpecializationController - Specialization created successfully
+SpecializationDto(id=f6543f6c-5d5d-4c7a-a7a7-a27b74c89939, specialization=Cardiology)
+2025-06-17 09:38:30 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:30 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:30 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:30 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:30 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@219edc05]
+2025-06-17 09:38:30 [main] INFO  c.h.d.c.SpecializationController - Specialization deleted successfully
+2025-06-17 09:38:30 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:30 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:30 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:30 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:30 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@4c5e4bfa]
+2025-06-17 09:38:30 [main] INFO  c.h.d.c.SpecializationController - Retrieve Specialization
+SpecializationDto(id=48ac9304-3c08-46d3-b9ae-c9130e1fac1f, specialization=Orthopedics)
+2025-06-17 09:38:30 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:30 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:30 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:30 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:30 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@3cc74fc4]
+2025-06-17 09:38:30 [main] INFO  c.h.d.c.SpecializationController - Specialization updated successfullySpecializationDto(id=2fdc26a4-1ef9-49f7-adca-c3d2e0cabade, specialization=Updated Specialization)
+2025-06-17 09:38:30 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:30 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:30 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:30 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:30 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=user, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@1c79d093]
+2025-06-17 09:38:30 [main] INFO  c.h.d.c.SpecializationController - All the specialization retrieve
+2025-06-17 09:38:31 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-06-17 09:38:31 [main] INFO  c.h.d.c.AppointmentControllerTest - Starting AppointmentControllerTest using Java 21.0.4 with PID 16672 (started by vaddivijaya.lakshmi in C:\Users\vaddivijaya.lakshmi\IdeaProjects\CapstoneProject\DoctorPatientService)
+2025-06-17 09:38:31 [main] DEBUG c.h.d.c.AppointmentControllerTest - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-06-17 09:38:31 [main] INFO  c.h.d.c.AppointmentControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-06-17 09:38:31 [main] TRACE o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@52fe87e0}
+2025-06-17 09:38:31 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.hcltech.doctorpatient.service.JpaUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-06-17 09:38:31 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-17 09:38:31 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-17 09:38:31 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: d8c4293e-4417-4854-b6db-00c17e0a7eda
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-17 09:38:31 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-06-17 09:38:31 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-06-17 09:38:31 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-06-17 09:38:31 [main] INFO  c.h.d.c.AppointmentControllerTest - Started AppointmentControllerTest in 0.539 seconds (process running for 12.576)
+2025-06-17 09:38:31 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:31 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:31 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:31 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:31 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=doctoruser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_DOCTOR]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_DOCTOR]]] to HttpSession [org.springframework.mock.web.MockHttpSession@575cfec1]
+2025-06-17 09:38:31 [main] INFO  c.h.d.c.AppointmentController - Fetching appointments for current doctor
+2025-06-17 09:38:31 [main] DEBUG c.h.d.c.AppointmentController - Doctor's appointments fetched: 2
+2025-06-17 09:38:31 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:31 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:31 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:31 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:31 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@cae4952]
+2025-06-17 09:38:31 [main] INFO  c.h.d.c.AppointmentController - Fetching all appointments
+2025-06-17 09:38:31 [main] DEBUG c.h.d.c.AppointmentController - Total appointments fetched: 2
+2025-06-17 09:38:31 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:31 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:31 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:31 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:31 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=doctoruser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_DOCTOR]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_DOCTOR]]] to HttpSession [org.springframework.mock.web.MockHttpSession@1fcf73b9]
+2025-06-17 09:38:31 [main] INFO  c.h.d.c.AppointmentController - Marking appointment as completed for ID: bfcbd39a-535f-4726-99a2-284eb3b6f971
+2025-06-17 09:38:31 [main] DEBUG c.h.d.c.AppointmentController - Appointment marked as completed: com.hcltech.doctorpatient.dto.appointmentdto.AppointmentResponseDto@48a21ea6
+2025-06-17 09:38:31 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:31 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:31 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:31 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:31 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@7ac1161f]
+2025-06-17 09:38:31 [main] INFO  c.h.d.c.AppointmentController - Fetching appointment by ID: null
+2025-06-17 09:38:31 [main] DEBUG c.h.d.c.AppointmentController - Appointment details: null
+2025-06-17 09:38:31 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:31 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:31 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:31 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:31 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@5ec06e97]
+2025-06-17 09:38:31 [main] INFO  c.h.d.c.AppointmentController - Rescheduling appointment with ID: 9ac1d3d1-33d4-4224-82f5-a02cfbeb9c3d
+2025-06-17 09:38:31 [main] DEBUG c.h.d.c.AppointmentController - Appointment rescheduled: com.hcltech.doctorpatient.dto.appointmentdto.AppointmentResponseDto@6f071d0c
+2025-06-17 09:38:31 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:31 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:31 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:31 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:31 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@5feaafb3]
+2025-06-17 09:38:31 [main] INFO  c.h.d.c.AppointmentController - Cancelling appointment with ID: 74a7048f-a04a-41d9-91e2-1024e038aa0b
+2025-06-17 09:38:31 [main] DEBUG c.h.d.c.AppointmentController - Appointment cancelled: com.hcltech.doctorpatient.dto.appointmentdto.AppointmentResponseDto@2cfd9b0a
+2025-06-17 09:38:31 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-06-17 09:38:32 [main] INFO  c.h.d.controller.UserControllerTest - Starting UserControllerTest using Java 21.0.4 with PID 16672 (started by vaddivijaya.lakshmi in C:\Users\vaddivijaya.lakshmi\IdeaProjects\CapstoneProject\DoctorPatientService)
+2025-06-17 09:38:32 [main] DEBUG c.h.d.controller.UserControllerTest - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-06-17 09:38:32 [main] INFO  c.h.d.controller.UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-06-17 09:38:32 [main] TRACE o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@1cdb280b}
+2025-06-17 09:38:32 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.hcltech.doctorpatient.service.JpaUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-06-17 09:38:32 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-17 09:38:32 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-17 09:38:32 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: a58530b9-89ae-424b-b15b-4cb696100519
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-17 09:38:32 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-06-17 09:38:32 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-06-17 09:38:32 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-06-17 09:38:32 [main] INFO  c.h.d.controller.UserControllerTest - Started UserControllerTest in 0.413 seconds (process running for 13.431)
+2025-06-17 09:38:32 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:32 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:32 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:32 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:32 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@1eb207c3]
+2025-06-17 09:38:32 [main] INFO  c.h.d.controller.UserController - Fetching all users
+2025-06-17 09:38:32 [main] INFO  c.h.d.controller.UserController - Total users fetched: 2
+2025-06-17 09:38:32 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:32 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:32 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:32 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:32 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@3f7f9d3f]
+2025-06-17 09:38:32 [main] INFO  c.h.d.controller.UserController - Updating user with ID: 5b784a32-e4c0-4f87-84ed-0bdf350b7406
+2025-06-17 09:38:32 [main] INFO  c.h.d.controller.UserController - User updated successfully: com.hcltech.doctorpatient.dto.UserDTO@5c141c7b
+2025-06-17 09:38:32 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:32 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:32 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:32 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:32 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@785477e5]
+2025-06-17 09:38:32 [main] INFO  c.h.d.controller.UserController - Registering new user: 9876543210
+2025-06-17 09:38:32 [main] INFO  c.h.d.controller.UserController - User registered successfully with ID: f94f1ca4-b342-4260-8b91-fd1bcb39c8bc
+2025-06-17 09:38:32 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:32 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:32 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:32 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:32 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@76ccde41]
+2025-06-17 09:38:32 [main] INFO  c.h.d.controller.UserController - Deleting user with ID: 697e77c6-d1d2-4fc3-820c-7c00a2bdc16a
+2025-06-17 09:38:32 [main] INFO  c.h.d.controller.UserController - User deleted successfully with ID: 697e77c6-d1d2-4fc3-820c-7c00a2bdc16a
+2025-06-17 09:38:32 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:32 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:32 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:32 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:32 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@7e4bbda4]
+2025-06-17 09:38:32 [main] INFO  c.h.d.controller.UserController - Fetching user with ID: 61da95e1-b879-43aa-a03a-c3b96d018069
+2025-06-17 09:38:32 [main] INFO  c.h.d.controller.UserController - User fetched: com.hcltech.doctorpatient.dto.UserDTO@2eed6331
+2025-06-17 09:38:32 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-06-17 09:38:32 [main] INFO  c.h.d.c.DoctorControllerTest - Starting DoctorControllerTest using Java 21.0.4 with PID 16672 (started by vaddivijaya.lakshmi in C:\Users\vaddivijaya.lakshmi\IdeaProjects\CapstoneProject\DoctorPatientService)
+2025-06-17 09:38:32 [main] DEBUG c.h.d.c.DoctorControllerTest - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-06-17 09:38:32 [main] INFO  c.h.d.c.DoctorControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-06-17 09:38:33 [main] TRACE o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@270a3cef}
+2025-06-17 09:38:33 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.hcltech.doctorpatient.service.JpaUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-06-17 09:38:33 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-17 09:38:33 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-17 09:38:33 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: b0ee1fae-613b-4fef-bb35-54fc2d3470c8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-17 09:38:33 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-06-17 09:38:33 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-06-17 09:38:33 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-06-17 09:38:33 [main] INFO  c.h.d.c.DoctorControllerTest - Started DoctorControllerTest in 0.415 seconds (process running for 14.234)
+2025-06-17 09:38:33 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:33 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:33 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:33 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:33 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@55e75ce0]
+2025-06-17 09:38:33 [main] INFO  c.h.d.controller.DoctorController - Updating doctor with ID: 8840aadb-d584-4c92-a39f-d014092ed2ee
+2025-06-17 09:38:33 [main] DEBUG c.h.d.controller.DoctorController - Doctor updated successfully: DoctorResponseDto(doctorId=8840aadb-d584-4c92-a39f-d014092ed2ee, name=Dr. Updated, mobileNumber=9999999999, experience=20 years, specialist=Orthopedic)
+2025-06-17 09:38:33 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:33 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:33 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:33 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:33 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@3a4d0ca2]
+2025-06-17 09:38:33 [main] INFO  c.h.d.controller.DoctorController - Deleting doctor with ID: 3b60bf48-8dd6-4f55-a845-94dfd5b236ca
+2025-06-17 09:38:33 [main] DEBUG c.h.d.controller.DoctorController - Doctor deleted successfully: 3b60bf48-8dd6-4f55-a845-94dfd5b236ca
+2025-06-17 09:38:33 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:33 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:33 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:33 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:33 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@2aaed928]
+2025-06-17 09:38:33 [main] INFO  c.h.d.controller.DoctorController - Fetching doctor by ID: d345f9af-1bd8-48e6-9f5f-730b10b1513c
+2025-06-17 09:38:33 [main] DEBUG c.h.d.controller.DoctorController - Doctor details retrieved: DoctorResponseDto(doctorId=d345f9af-1bd8-48e6-9f5f-730b10b1513c, name=Dr. Clara, mobileNumber=9988776655, experience=15 years, specialist=Oncologist)
+2025-06-17 09:38:33 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:33 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:33 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:33 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:33 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@d140627]
+2025-06-17 09:38:33 [main] INFO  c.h.d.controller.DoctorController - Fetching all doctors
+2025-06-17 09:38:33 [main] DEBUG c.h.d.controller.DoctorController - Total doctors fetched: 2
+2025-06-17 09:38:33 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:33 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:33 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:33 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:33 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@75f579d2]
+2025-06-17 09:38:33 [main] INFO  c.h.d.controller.DoctorController - Creating doctor profile for userId: 85b21e8b-2e36-422f-a9a1-7a898dd40084
+2025-06-17 09:38:33 [main] DEBUG c.h.d.controller.DoctorController - Doctor created with ID: 85b21e8b-2e36-422f-a9a1-7a898dd40084
+2025-06-17 09:38:33 [main] ERROR c.h.d.service.PatientService - User Not found with Id  :{0}
+2025-06-17 09:38:33 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-06-17 09:38:33 [main] INFO  c.h.d.c.DiseaseControllerTest - Starting DiseaseControllerTest using Java 21.0.4 with PID 16672 (started by vaddivijaya.lakshmi in C:\Users\vaddivijaya.lakshmi\IdeaProjects\CapstoneProject\DoctorPatientService)
+2025-06-17 09:38:33 [main] DEBUG c.h.d.c.DiseaseControllerTest - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-06-17 09:38:33 [main] INFO  c.h.d.c.DiseaseControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-06-17 09:38:34 [main] TRACE o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@40f7fb45}
+2025-06-17 09:38:34 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.hcltech.doctorpatient.service.JpaUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-06-17 09:38:34 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-17 09:38:34 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-17 09:38:34 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 036f9f59-acc6-4428-8e44-b87dc4901739
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-17 09:38:34 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-06-17 09:38:34 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-06-17 09:38:34 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-06-17 09:38:34 [main] INFO  c.h.d.c.DiseaseControllerTest - Started DiseaseControllerTest in 0.528 seconds (process running for 15.371)
+2025-06-17 09:38:34 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:34 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:34 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:34 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:34 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@5a5c041f]
+2025-06-17 09:38:34 [main] INFO  c.h.d.controller.DiseaseController - Fetching all diseases
+2025-06-17 09:38:34 [main] DEBUG c.h.d.controller.DiseaseController - Total diseases fetched: 2
+2025-06-17 09:38:34 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:34 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:34 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:34 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:34 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@4545ac62]
+2025-06-17 09:38:34 [main] INFO  c.h.d.controller.DiseaseController - Deleting disease with ID: c3a01e66-16d1-4698-86a6-6b18c4a7da06
+2025-06-17 09:38:34 [main] DEBUG c.h.d.controller.DiseaseController - Disease deleted successfully for ID: c3a01e66-16d1-4698-86a6-6b18c4a7da06
+2025-06-17 09:38:34 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:34 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:34 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:34 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:34 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@b94c22d]
+2025-06-17 09:38:34 [main] INFO  c.h.d.controller.DiseaseController - Fetching disease by ID: 75deddeb-94f9-4804-84b7-544201b130e9
+2025-06-17 09:38:34 [main] DEBUG c.h.d.controller.DiseaseController - Disease details retrieved: DiseaseDTO(diseaseId=75deddeb-94f9-4804-84b7-544201b130e9, diseaseName=Flu, specializatonName=Cardiology)
+2025-06-17 09:38:34 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:34 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:34 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:34 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:34 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@5113ab26]
+2025-06-17 09:38:34 [main] INFO  c.h.d.controller.DiseaseController - Creating new disease entry: Flu
+2025-06-17 09:38:34 [main] DEBUG c.h.d.controller.DiseaseController - Disease created successfully: DiseaseDTO(diseaseId=90bb935e-7bcd-4687-9f20-8594209f5cf3, diseaseName=Flu, specializatonName=Cardiology)
+2025-06-17 09:38:34 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-06-17 09:38:34 [main] INFO  c.h.d.c.PatientControllerTest - Starting PatientControllerTest using Java 21.0.4 with PID 16672 (started by vaddivijaya.lakshmi in C:\Users\vaddivijaya.lakshmi\IdeaProjects\CapstoneProject\DoctorPatientService)
+2025-06-17 09:38:34 [main] DEBUG c.h.d.c.PatientControllerTest - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-06-17 09:38:34 [main] INFO  c.h.d.c.PatientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-06-17 09:38:34 [main] TRACE o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@5973d3ec}
+2025-06-17 09:38:34 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.hcltech.doctorpatient.service.JpaUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-06-17 09:38:34 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-17 09:38:34 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-17 09:38:35 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 18d2147a-fe54-400d-9201-22bb19821a7f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-17 09:38:35 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-06-17 09:38:35 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-06-17 09:38:35 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-06-17 09:38:35 [main] INFO  c.h.d.c.PatientControllerTest - Started PatientControllerTest in 0.509 seconds (process running for 16.051)
+2025-06-17 09:38:35 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:35 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:35 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:35 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:35 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@382fba37]
+2025-06-17 09:38:35 [main] INFO  c.h.d.controller.PatientController - Fetching patient with ID: fbebece2-6f83-46dd-add7-e59c027b2c9a
+2025-06-17 09:38:35 [main] INFO  c.h.d.controller.PatientController - Patient fetched: PatientResponseDto(id=null, name=null, mobileNumber=null, age=28, bloodGroup=AB+, gender=Male)
+2025-06-17 09:38:35 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:35 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:35 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:35 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:35 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=admin, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@40cdc640]
+2025-06-17 09:38:35 [main] INFO  c.h.d.controller.PatientController - Creating patient with reference ID: 2f9a3354-759b-437b-a1c9-d7583912873f
+2025-06-17 09:38:35 [main] INFO  c.h.d.controller.PatientController - Patient created with ID: null
+2025-06-17 09:38:35 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:35 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:35 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:35 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:35 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@7aac05e2]
+2025-06-17 09:38:35 [main] INFO  c.h.d.controller.PatientController - Fetching all patients
+2025-06-17 09:38:35 [main] INFO  c.h.d.controller.PatientController - Total patients fetched: 2
+2025-06-17 09:38:35 [main] INFO  c.h.d.controller.PatientController - Updating patient with ID: 1ae1cef5-385d-4e36-9891-93998f0c205c
+2025-06-17 09:38:35 [main] INFO  c.h.d.controller.PatientController - Patient updated successfully: PatientResponseDto(id=null, name=null, mobileNumber=null, age=28, bloodGroup=O+, gender=Female)
+2025-06-17 09:38:35 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:38:35 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:35 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:38:35 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:38:35 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@4ce66169]
+2025-06-17 09:38:35 [main] INFO  c.h.d.controller.PatientController - Deleting patient with ID: 2814e8d4-4e74-4647-aed3-7cf36897fc91
+2025-06-17 09:38:35 [main] INFO  c.h.d.controller.PatientController - Patient deleted successfully with ID: 2814e8d4-4e74-4647-aed3-7cf36897fc91
+2025-06-17 09:38:35 [main] INFO  c.h.d.c.AuthenticationController - Login attempt for username: 1234567890
+2025-06-17 09:38:35 [main] DEBUG c.h.d.c.AuthenticationController - Login successful for username: 1234567890
+2025-06-17 09:38:35 [main] INFO  c.h.d.c.AuthenticationController - Logout attempt for username: 1234567890
+2025-06-17 09:38:35 [main] DEBUG c.h.d.c.AuthenticationController - Security context cleared for logout
+2025-06-17 09:38:35 [main] INFO  c.h.d.c.AuthenticationController - Logout successful for username: 1234567890
+2025-06-17 09:38:35 [main] INFO  c.h.d.c.AuthenticationController - Logout attempt for username: 1234567890
+2025-06-17 09:38:35 [main] WARN  c.h.d.c.AuthenticationController - Logout failed due to missing or invalid JWT token
+2025-06-17 09:38:35 [main] ERROR c.h.d.c.SpecializationController - Doctor not found at Id: 22e76243-0f86-4237-bfb5-7e5700dd5a15
+2025-06-17 09:41:50 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-06-17 09:41:51 [main] INFO  c.h.d.c.SpecializationControllerTest - Starting SpecializationControllerTest using Java 21.0.4 with PID 34152 (started by vaddivijaya.lakshmi in C:\Users\vaddivijaya.lakshmi\IdeaProjects\CapstoneProject\DoctorPatientService)
+2025-06-17 09:41:51 [main] DEBUG c.h.d.c.SpecializationControllerTest - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-06-17 09:41:51 [main] INFO  c.h.d.c.SpecializationControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-06-17 09:41:56 [main] TRACE o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@595814a1}
+2025-06-17 09:41:56 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 4f1f704a-c08b-4859-84bf-75e0a84dabcc
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-17 09:41:56 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-06-17 09:41:57 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-17 09:41:57 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-06-17 09:41:57 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-06-17 09:41:57 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-06-17 09:41:58 [main] INFO  c.h.d.c.SpecializationControllerTest - Started SpecializationControllerTest in 8.304 seconds (process running for 13.37)
+2025-06-17 09:41:58 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:41:58 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:41:58 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:41:58 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:41:58 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@b671dda]
+2025-06-17 09:41:58 [main] INFO  c.h.d.c.SpecializationController - Specialization created successfully
+SpecializationDto(id=382d3d68-a96b-4cb9-8d0a-b639ce9b37b2, specialization=Cardiology)
+2025-06-17 09:41:58 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:41:58 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:41:58 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:41:58 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:41:58 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@7b10472e]
+2025-06-17 09:41:58 [main] INFO  c.h.d.c.SpecializationController - Specialization deleted successfully
+2025-06-17 09:41:58 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:41:58 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:41:58 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:41:58 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:41:58 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@73e93c3a]
+2025-06-17 09:41:58 [main] INFO  c.h.d.c.SpecializationController - Retrieve Specialization
+SpecializationDto(id=bfeec43e-7914-432a-9aa9-26c18c4bf828, specialization=Orthopedics)
+2025-06-17 09:41:58 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:41:58 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:41:58 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:41:58 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:41:58 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@538f45f1]
+2025-06-17 09:41:58 [main] INFO  c.h.d.c.SpecializationController - Specialization updated successfullySpecializationDto(id=478f4c3e-81f3-4e7b-870b-412e56d772e4, specialization=Updated Specialization)
+2025-06-17 09:41:58 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:41:58 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:41:58 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:41:58 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:41:58 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=user, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@43719e98]
+2025-06-17 09:41:58 [main] INFO  c.h.d.c.SpecializationController - All the specialization retrieve
+2025-06-17 09:41:59 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-06-17 09:41:59 [main] INFO  c.h.d.c.AppointmentControllerTest - Starting AppointmentControllerTest using Java 21.0.4 with PID 34152 (started by vaddivijaya.lakshmi in C:\Users\vaddivijaya.lakshmi\IdeaProjects\CapstoneProject\DoctorPatientService)
+2025-06-17 09:41:59 [main] DEBUG c.h.d.c.AppointmentControllerTest - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-06-17 09:41:59 [main] INFO  c.h.d.c.AppointmentControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-06-17 09:41:59 [main] TRACE o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@58fbfefb}
+2025-06-17 09:41:59 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.hcltech.doctorpatient.service.JpaUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-06-17 09:41:59 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-17 09:41:59 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-17 09:42:00 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: ad91d2c5-ab4e-4cd5-bf6b-d99c74151faf
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-17 09:42:00 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-06-17 09:42:00 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-06-17 09:42:00 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-06-17 09:42:00 [main] INFO  c.h.d.c.AppointmentControllerTest - Started AppointmentControllerTest in 0.794 seconds (process running for 15.4)
+2025-06-17 09:42:00 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:00 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:00 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:00 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:00 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=doctoruser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_DOCTOR]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_DOCTOR]]] to HttpSession [org.springframework.mock.web.MockHttpSession@52fed5b7]
+2025-06-17 09:42:00 [main] INFO  c.h.d.c.AppointmentController - Fetching appointments for current doctor
+2025-06-17 09:42:00 [main] DEBUG c.h.d.c.AppointmentController - Doctor's appointments fetched: 2
+2025-06-17 09:42:00 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:00 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:00 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:00 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:00 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@1dc2c13c]
+2025-06-17 09:42:00 [main] INFO  c.h.d.c.AppointmentController - Fetching all appointments
+2025-06-17 09:42:00 [main] DEBUG c.h.d.c.AppointmentController - Total appointments fetched: 2
+2025-06-17 09:42:00 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:00 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:00 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:00 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:00 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=doctoruser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_DOCTOR]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_DOCTOR]]] to HttpSession [org.springframework.mock.web.MockHttpSession@6778636f]
+2025-06-17 09:42:00 [main] INFO  c.h.d.c.AppointmentController - Marking appointment as completed for ID: 70c525d4-b6b9-4e12-82af-d22f8933c970
+2025-06-17 09:42:00 [main] DEBUG c.h.d.c.AppointmentController - Appointment marked as completed: com.hcltech.doctorpatient.dto.appointmentdto.AppointmentResponseDto@6075a4ea
+2025-06-17 09:42:00 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:00 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:00 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:00 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:00 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@7a22302c]
+2025-06-17 09:42:00 [main] INFO  c.h.d.c.AppointmentController - Fetching appointment by ID: null
+2025-06-17 09:42:00 [main] DEBUG c.h.d.c.AppointmentController - Appointment details: null
+2025-06-17 09:42:00 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:00 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:00 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:00 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:00 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@2aa65672]
+2025-06-17 09:42:00 [main] INFO  c.h.d.c.AppointmentController - Rescheduling appointment with ID: 916709fc-930e-4447-99f6-38b1321465fd
+2025-06-17 09:42:00 [main] DEBUG c.h.d.c.AppointmentController - Appointment rescheduled: com.hcltech.doctorpatient.dto.appointmentdto.AppointmentResponseDto@7f3a92fd
+2025-06-17 09:42:00 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:00 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:00 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:00 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:00 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@504274c1]
+2025-06-17 09:42:00 [main] INFO  c.h.d.c.AppointmentController - Cancelling appointment with ID: ea93de9b-78c0-43b4-a672-73df4210151c
+2025-06-17 09:42:00 [main] DEBUG c.h.d.c.AppointmentController - Appointment cancelled: com.hcltech.doctorpatient.dto.appointmentdto.AppointmentResponseDto@3e371088
+2025-06-17 09:42:00 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-06-17 09:42:00 [main] INFO  c.h.d.controller.UserControllerTest - Starting UserControllerTest using Java 21.0.4 with PID 34152 (started by vaddivijaya.lakshmi in C:\Users\vaddivijaya.lakshmi\IdeaProjects\CapstoneProject\DoctorPatientService)
+2025-06-17 09:42:00 [main] DEBUG c.h.d.controller.UserControllerTest - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-06-17 09:42:00 [main] INFO  c.h.d.controller.UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-06-17 09:42:01 [main] TRACE o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@649a6d88}
+2025-06-17 09:42:01 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.hcltech.doctorpatient.service.JpaUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-06-17 09:42:01 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-17 09:42:01 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-17 09:42:01 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: b7b0ba11-963b-4e50-aa13-d9247cac32e9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-17 09:42:01 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-06-17 09:42:01 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-06-17 09:42:01 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-06-17 09:42:01 [main] INFO  c.h.d.controller.UserControllerTest - Started UserControllerTest in 0.538 seconds (process running for 16.587)
+2025-06-17 09:42:01 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:01 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:01 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:01 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:01 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@38eafdab]
+2025-06-17 09:42:01 [main] INFO  c.h.d.controller.UserController - Fetching all users
+2025-06-17 09:42:01 [main] INFO  c.h.d.controller.UserController - Total users fetched: 2
+2025-06-17 09:42:01 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:01 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:01 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:01 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:01 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@7c8cea05]
+2025-06-17 09:42:01 [main] INFO  c.h.d.controller.UserController - Updating user with ID: 8f430e66-f56c-48d3-9676-1f8dadc79e83
+2025-06-17 09:42:01 [main] INFO  c.h.d.controller.UserController - User updated successfully: com.hcltech.doctorpatient.dto.UserDTO@3aac31b7
+2025-06-17 09:42:01 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:01 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:01 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:01 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:01 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@51e14cb6]
+2025-06-17 09:42:01 [main] INFO  c.h.d.controller.UserController - Registering new user: 9876543210
+2025-06-17 09:42:01 [main] INFO  c.h.d.controller.UserController - User registered successfully with ID: 45ed1b70-9881-4cf0-8f76-392dcfafd61b
+2025-06-17 09:42:01 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:01 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:01 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:01 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:01 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@2a20aa4e]
+2025-06-17 09:42:01 [main] INFO  c.h.d.controller.UserController - Deleting user with ID: 67876344-d65b-45b0-878b-3e8ed028f340
+2025-06-17 09:42:01 [main] INFO  c.h.d.controller.UserController - User deleted successfully with ID: 67876344-d65b-45b0-878b-3e8ed028f340
+2025-06-17 09:42:01 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:01 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:01 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:01 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:01 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@14aa2123]
+2025-06-17 09:42:01 [main] INFO  c.h.d.controller.UserController - Fetching user with ID: aebf8a13-d8ab-46a3-be86-37e1486b5ca2
+2025-06-17 09:42:01 [main] INFO  c.h.d.controller.UserController - User fetched: com.hcltech.doctorpatient.dto.UserDTO@7def62d0
+2025-06-17 09:42:01 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-06-17 09:42:01 [main] INFO  c.h.d.c.DoctorControllerTest - Starting DoctorControllerTest using Java 21.0.4 with PID 34152 (started by vaddivijaya.lakshmi in C:\Users\vaddivijaya.lakshmi\IdeaProjects\CapstoneProject\DoctorPatientService)
+2025-06-17 09:42:01 [main] DEBUG c.h.d.c.DoctorControllerTest - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-06-17 09:42:01 [main] INFO  c.h.d.c.DoctorControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-06-17 09:42:02 [main] TRACE o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@72364a40}
+2025-06-17 09:42:02 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.hcltech.doctorpatient.service.JpaUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-06-17 09:42:02 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-17 09:42:02 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-17 09:42:02 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c6951270-5e7d-4d53-8eb9-895786386e6f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-17 09:42:02 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-06-17 09:42:02 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-06-17 09:42:02 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-06-17 09:42:02 [main] INFO  c.h.d.c.DoctorControllerTest - Started DoctorControllerTest in 0.508 seconds (process running for 17.637)
+2025-06-17 09:42:02 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:02 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:02 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:02 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:02 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@43e9eddf]
+2025-06-17 09:42:02 [main] INFO  c.h.d.controller.DoctorController - Updating doctor with ID: 482e273f-b5f6-453a-a9be-3ab45b5ce763
+2025-06-17 09:42:02 [main] DEBUG c.h.d.controller.DoctorController - Doctor updated successfully: DoctorResponseDto(doctorId=482e273f-b5f6-453a-a9be-3ab45b5ce763, name=Dr. Updated, mobileNumber=9999999999, experience=20 years, specialist=Orthopedic)
+2025-06-17 09:42:02 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:02 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:02 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:02 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:02 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@63fcc21]
+2025-06-17 09:42:02 [main] INFO  c.h.d.controller.DoctorController - Deleting doctor with ID: 2e9de012-f133-4976-ae07-f3aa41c56d64
+2025-06-17 09:42:02 [main] DEBUG c.h.d.controller.DoctorController - Doctor deleted successfully: 2e9de012-f133-4976-ae07-f3aa41c56d64
+2025-06-17 09:42:02 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:02 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:02 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:02 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:02 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@17c3e33]
+2025-06-17 09:42:02 [main] INFO  c.h.d.controller.DoctorController - Fetching doctor by ID: e55804ad-0f8c-4ee9-a4e4-3c03b1ea2676
+2025-06-17 09:42:02 [main] DEBUG c.h.d.controller.DoctorController - Doctor details retrieved: DoctorResponseDto(doctorId=e55804ad-0f8c-4ee9-a4e4-3c03b1ea2676, name=Dr. Clara, mobileNumber=9988776655, experience=15 years, specialist=Oncologist)
+2025-06-17 09:42:02 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:02 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:02 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:02 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:02 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@2c64ee53]
+2025-06-17 09:42:02 [main] INFO  c.h.d.controller.DoctorController - Fetching all doctors
+2025-06-17 09:42:02 [main] DEBUG c.h.d.controller.DoctorController - Total doctors fetched: 2
+2025-06-17 09:42:02 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:02 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:02 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:02 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:02 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@489a722d]
+2025-06-17 09:42:02 [main] INFO  c.h.d.controller.DoctorController - Creating doctor profile for userId: 8aca0419-0380-4f61-8701-492421169406
+2025-06-17 09:42:02 [main] DEBUG c.h.d.controller.DoctorController - Doctor created with ID: 8aca0419-0380-4f61-8701-492421169406
+2025-06-17 09:42:02 [main] ERROR c.h.d.service.PatientService - User Not found with Id  :{0}
+2025-06-17 09:42:02 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-06-17 09:42:03 [main] INFO  c.h.d.c.DiseaseControllerTest - Starting DiseaseControllerTest using Java 21.0.4 with PID 34152 (started by vaddivijaya.lakshmi in C:\Users\vaddivijaya.lakshmi\IdeaProjects\CapstoneProject\DoctorPatientService)
+2025-06-17 09:42:03 [main] DEBUG c.h.d.c.DiseaseControllerTest - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-06-17 09:42:03 [main] INFO  c.h.d.c.DiseaseControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-06-17 09:42:03 [main] TRACE o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@5765cd21}
+2025-06-17 09:42:03 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.hcltech.doctorpatient.service.JpaUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-06-17 09:42:03 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-17 09:42:03 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-17 09:42:03 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 90463b3b-f0ed-4ce3-a59f-e5836427f609
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-17 09:42:03 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-06-17 09:42:03 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-06-17 09:42:03 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-06-17 09:42:03 [main] INFO  c.h.d.c.DiseaseControllerTest - Started DiseaseControllerTest in 0.453 seconds (process running for 18.674)
+2025-06-17 09:42:03 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:03 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:03 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:03 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:03 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@67bf393c]
+2025-06-17 09:42:03 [main] INFO  c.h.d.controller.DiseaseController - Fetching all diseases
+2025-06-17 09:42:03 [main] DEBUG c.h.d.controller.DiseaseController - Total diseases fetched: 2
+2025-06-17 09:42:03 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:03 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:03 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:03 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:03 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@1272f6d9]
+2025-06-17 09:42:03 [main] INFO  c.h.d.controller.DiseaseController - Deleting disease with ID: d7b2e806-d32d-42d4-bec0-07ca052aaba2
+2025-06-17 09:42:03 [main] DEBUG c.h.d.controller.DiseaseController - Disease deleted successfully for ID: d7b2e806-d32d-42d4-bec0-07ca052aaba2
+2025-06-17 09:42:03 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:03 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:03 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:03 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:03 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@7475f071]
+2025-06-17 09:42:03 [main] INFO  c.h.d.controller.DiseaseController - Fetching disease by ID: 934ad4fb-6838-4312-9c06-d89a1a81dd7b
+2025-06-17 09:42:03 [main] DEBUG c.h.d.controller.DiseaseController - Disease details retrieved: DiseaseDTO(diseaseId=934ad4fb-6838-4312-9c06-d89a1a81dd7b, diseaseName=Flu, specializatonName=Cardiology)
+2025-06-17 09:42:03 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:03 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:03 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:03 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:03 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@20bc72af]
+2025-06-17 09:42:03 [main] INFO  c.h.d.controller.DiseaseController - Creating new disease entry: Flu
+2025-06-17 09:42:03 [main] DEBUG c.h.d.controller.DiseaseController - Disease created successfully: DiseaseDTO(diseaseId=c57d48b4-6983-4566-94a1-72c542c2843e, diseaseName=Flu, specializatonName=Cardiology)
+2025-06-17 09:42:03 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-06-17 09:42:03 [main] INFO  c.h.d.c.PatientControllerTest - Starting PatientControllerTest using Java 21.0.4 with PID 34152 (started by vaddivijaya.lakshmi in C:\Users\vaddivijaya.lakshmi\IdeaProjects\CapstoneProject\DoctorPatientService)
+2025-06-17 09:42:03 [main] DEBUG c.h.d.c.PatientControllerTest - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-06-17 09:42:03 [main] INFO  c.h.d.c.PatientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-06-17 09:42:03 [main] TRACE o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@474aeac5}
+2025-06-17 09:42:03 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.hcltech.doctorpatient.service.JpaUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-06-17 09:42:03 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-17 09:42:03 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-17 09:42:03 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: e1f1eadb-7477-4b14-a798-8915c3138f49
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-17 09:42:03 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-06-17 09:42:03 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-06-17 09:42:03 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-06-17 09:42:03 [main] INFO  c.h.d.c.PatientControllerTest - Started PatientControllerTest in 0.469 seconds (process running for 19.264)
+2025-06-17 09:42:03 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:03 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:03 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:03 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:03 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@233202aa]
+2025-06-17 09:42:04 [main] INFO  c.h.d.controller.PatientController - Fetching patient with ID: 6ee21990-ef1c-4a1a-8bfe-28ee3b3e0e5b
+2025-06-17 09:42:04 [main] INFO  c.h.d.controller.PatientController - Patient fetched: PatientResponseDto(id=null, name=null, mobileNumber=null, age=28, bloodGroup=AB+, gender=Male)
+2025-06-17 09:42:04 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:04 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:04 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:04 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:04 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=admin, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@13448d2d]
+2025-06-17 09:42:04 [main] INFO  c.h.d.controller.PatientController - Creating patient with reference ID: 9b0c76dd-a3bf-41a6-892d-b6c7c6c626c7
+2025-06-17 09:42:04 [main] INFO  c.h.d.controller.PatientController - Patient created with ID: null
+2025-06-17 09:42:04 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:04 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:04 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:04 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:04 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@5c5cd332]
+2025-06-17 09:42:04 [main] INFO  c.h.d.controller.PatientController - Fetching all patients
+2025-06-17 09:42:04 [main] INFO  c.h.d.controller.PatientController - Total patients fetched: 2
+2025-06-17 09:42:04 [main] INFO  c.h.d.controller.PatientController - Updating patient with ID: 2612d0b7-5ea0-40ce-bc5d-22835104cdc3
+2025-06-17 09:42:04 [main] INFO  c.h.d.controller.PatientController - Patient updated successfully: PatientResponseDto(id=null, name=null, mobileNumber=null, age=28, bloodGroup=O+, gender=Female)
+2025-06-17 09:42:04 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:42:04 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:04 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:42:04 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:42:04 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@1467dcd0]
+2025-06-17 09:42:04 [main] INFO  c.h.d.controller.PatientController - Deleting patient with ID: 96b40a68-b73f-44af-abee-9bf29f5871b8
+2025-06-17 09:42:04 [main] INFO  c.h.d.controller.PatientController - Patient deleted successfully with ID: 96b40a68-b73f-44af-abee-9bf29f5871b8
+2025-06-17 09:42:04 [main] INFO  c.h.d.c.AuthenticationController - Login attempt for username: 1234567890
+2025-06-17 09:42:04 [main] DEBUG c.h.d.c.AuthenticationController - Login successful for username: 1234567890
+2025-06-17 09:42:04 [main] INFO  c.h.d.c.AuthenticationController - Logout attempt for username: 1234567890
+2025-06-17 09:42:04 [main] DEBUG c.h.d.c.AuthenticationController - Security context cleared for logout
+2025-06-17 09:42:04 [main] INFO  c.h.d.c.AuthenticationController - Logout successful for username: 1234567890
+2025-06-17 09:42:04 [main] INFO  c.h.d.c.AuthenticationController - Logout attempt for username: 1234567890
+2025-06-17 09:42:04 [main] WARN  c.h.d.c.AuthenticationController - Logout failed due to missing or invalid JWT token
+2025-06-17 09:42:04 [main] ERROR c.h.d.c.SpecializationController - Doctor not found at Id: 3af8e154-083b-4825-87cb-26cfad6d6b1a
+2025-06-17 09:45:58 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-06-17 09:45:58 [main] INFO  c.h.d.c.SpecializationControllerTest - Starting SpecializationControllerTest using Java 21.0.4 with PID 33608 (started by vaddivijaya.lakshmi in C:\Users\vaddivijaya.lakshmi\IdeaProjects\CapstoneProject\DoctorPatientService)
+2025-06-17 09:45:58 [main] DEBUG c.h.d.c.SpecializationControllerTest - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-06-17 09:45:58 [main] INFO  c.h.d.c.SpecializationControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-06-17 09:46:03 [main] TRACE o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@7de5871d}
+2025-06-17 09:46:03 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 785f2ba3-6c30-4132-be9e-0435e53c2f45
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-17 09:46:03 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-06-17 09:46:03 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-17 09:46:04 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-06-17 09:46:04 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-06-17 09:46:04 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-06-17 09:46:04 [main] INFO  c.h.d.c.SpecializationControllerTest - Started SpecializationControllerTest in 6.778 seconds (process running for 11.612)
+2025-06-17 09:46:04 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:04 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:04 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:04 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:04 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@4c164f81]
+2025-06-17 09:46:05 [main] INFO  c.h.d.c.SpecializationController - Specialization created successfully
+SpecializationDto(id=9b942e03-0975-4093-a1b3-0d23db9d3d49, specialization=Cardiology)
+2025-06-17 09:46:05 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:05 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:05 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:05 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:05 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@e4ef4c0]
+2025-06-17 09:46:05 [main] INFO  c.h.d.c.SpecializationController - Specialization deleted successfully
+2025-06-17 09:46:05 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:05 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:05 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:05 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:05 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@2a5efbb9]
+2025-06-17 09:46:05 [main] INFO  c.h.d.c.SpecializationController - Retrieve Specialization
+SpecializationDto(id=4d9c75e2-478f-4df7-a8c7-47f726f6fdd3, specialization=Orthopedics)
+2025-06-17 09:46:05 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:05 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:05 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:05 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:05 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@18f4086e]
+2025-06-17 09:46:05 [main] INFO  c.h.d.c.SpecializationController - Specialization updated successfullySpecializationDto(id=1765d654-3b39-4f80-8636-3887fd4aa199, specialization=Updated Specialization)
+2025-06-17 09:46:05 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:05 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:05 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:05 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:05 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=user, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@2337bf27]
+2025-06-17 09:46:05 [main] INFO  c.h.d.c.SpecializationController - All the specialization retrieve
+2025-06-17 09:46:06 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-06-17 09:46:06 [main] INFO  c.h.d.c.AppointmentControllerTest - Starting AppointmentControllerTest using Java 21.0.4 with PID 33608 (started by vaddivijaya.lakshmi in C:\Users\vaddivijaya.lakshmi\IdeaProjects\CapstoneProject\DoctorPatientService)
+2025-06-17 09:46:06 [main] DEBUG c.h.d.c.AppointmentControllerTest - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-06-17 09:46:06 [main] INFO  c.h.d.c.AppointmentControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-06-17 09:46:06 [main] TRACE o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@58fbfefb}
+2025-06-17 09:46:06 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.hcltech.doctorpatient.service.JpaUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-06-17 09:46:06 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-17 09:46:06 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-17 09:46:06 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: bf9817b7-ebbb-4e07-8c81-ee2800101af9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-17 09:46:06 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-06-17 09:46:06 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-06-17 09:46:06 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-06-17 09:46:06 [main] INFO  c.h.d.c.AppointmentControllerTest - Started AppointmentControllerTest in 0.845 seconds (process running for 13.734)
+2025-06-17 09:46:06 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:06 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:06 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:06 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:06 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=doctoruser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_DOCTOR]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_DOCTOR]]] to HttpSession [org.springframework.mock.web.MockHttpSession@52fed5b7]
+2025-06-17 09:46:06 [main] INFO  c.h.d.c.AppointmentController - Fetching appointments for current doctor
+2025-06-17 09:46:06 [main] DEBUG c.h.d.c.AppointmentController - Doctor's appointments fetched: 2
+2025-06-17 09:46:06 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:06 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:06 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:06 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:06 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@1dc2c13c]
+2025-06-17 09:46:06 [main] INFO  c.h.d.c.AppointmentController - Fetching all appointments
+2025-06-17 09:46:06 [main] DEBUG c.h.d.c.AppointmentController - Total appointments fetched: 2
+2025-06-17 09:46:06 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:06 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:06 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:06 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:06 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=doctoruser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_DOCTOR]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_DOCTOR]]] to HttpSession [org.springframework.mock.web.MockHttpSession@6778636f]
+2025-06-17 09:46:06 [main] INFO  c.h.d.c.AppointmentController - Marking appointment as completed for ID: f46f4c0f-8b9f-4b32-9bf8-e6128a2ac563
+2025-06-17 09:46:06 [main] DEBUG c.h.d.c.AppointmentController - Appointment marked as completed: com.hcltech.doctorpatient.dto.appointmentdto.AppointmentResponseDto@6075a4ea
+2025-06-17 09:46:06 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:06 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:06 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:06 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:06 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@7a22302c]
+2025-06-17 09:46:06 [main] INFO  c.h.d.c.AppointmentController - Fetching appointment by ID: null
+2025-06-17 09:46:06 [main] DEBUG c.h.d.c.AppointmentController - Appointment details: null
+2025-06-17 09:46:06 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:06 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:06 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:06 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:06 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@2aa65672]
+2025-06-17 09:46:07 [main] INFO  c.h.d.c.AppointmentController - Rescheduling appointment with ID: 3876d960-60e6-47fb-9100-7cbec7dc0882
+2025-06-17 09:46:07 [main] DEBUG c.h.d.c.AppointmentController - Appointment rescheduled: com.hcltech.doctorpatient.dto.appointmentdto.AppointmentResponseDto@7f3a92fd
+2025-06-17 09:46:07 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:07 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:07 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:07 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:07 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@504274c1]
+2025-06-17 09:46:07 [main] INFO  c.h.d.c.AppointmentController - Cancelling appointment with ID: 75158784-b097-4c76-aaf3-a65e365e7c86
+2025-06-17 09:46:07 [main] DEBUG c.h.d.c.AppointmentController - Appointment cancelled: com.hcltech.doctorpatient.dto.appointmentdto.AppointmentResponseDto@3e371088
+2025-06-17 09:46:07 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-06-17 09:46:07 [main] INFO  c.h.d.controller.UserControllerTest - Starting UserControllerTest using Java 21.0.4 with PID 33608 (started by vaddivijaya.lakshmi in C:\Users\vaddivijaya.lakshmi\IdeaProjects\CapstoneProject\DoctorPatientService)
+2025-06-17 09:46:07 [main] DEBUG c.h.d.controller.UserControllerTest - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-06-17 09:46:07 [main] INFO  c.h.d.controller.UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-06-17 09:46:07 [main] TRACE o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@649a6d88}
+2025-06-17 09:46:07 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.hcltech.doctorpatient.service.JpaUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-06-17 09:46:07 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-17 09:46:07 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-17 09:46:07 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: bd5e0436-c58e-4988-be5c-73e6bc6f8bf8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-17 09:46:07 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-06-17 09:46:07 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-06-17 09:46:07 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-06-17 09:46:07 [main] INFO  c.h.d.controller.UserControllerTest - Started UserControllerTest in 0.463 seconds (process running for 14.686)
+2025-06-17 09:46:07 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:07 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:07 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:07 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:07 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@38eafdab]
+2025-06-17 09:46:07 [main] INFO  c.h.d.controller.UserController - Fetching all users
+2025-06-17 09:46:07 [main] INFO  c.h.d.controller.UserController - Total users fetched: 2
+2025-06-17 09:46:07 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:07 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:07 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:07 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:07 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@7c8cea05]
+2025-06-17 09:46:07 [main] INFO  c.h.d.controller.UserController - Updating user with ID: ff172f22-82f4-4085-be13-94cb3abb9d1c
+2025-06-17 09:46:07 [main] INFO  c.h.d.controller.UserController - User updated successfully: com.hcltech.doctorpatient.dto.UserDTO@2bd8c8f1
+2025-06-17 09:46:07 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:07 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:07 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:07 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:07 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@57def953]
+2025-06-17 09:46:07 [main] INFO  c.h.d.controller.UserController - Registering new user: 9876543210
+2025-06-17 09:46:07 [main] INFO  c.h.d.controller.UserController - User registered successfully with ID: 0b6263e0-812c-4441-b41f-c026c63027a9
+2025-06-17 09:46:07 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:07 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:07 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:07 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:07 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@6eaf6ced]
+2025-06-17 09:46:07 [main] INFO  c.h.d.controller.UserController - Deleting user with ID: cdbc2c08-3ac9-4d24-af99-f6c122b7dc94
+2025-06-17 09:46:07 [main] INFO  c.h.d.controller.UserController - User deleted successfully with ID: cdbc2c08-3ac9-4d24-af99-f6c122b7dc94
+2025-06-17 09:46:07 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:07 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:07 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:07 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:07 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@4884350b]
+2025-06-17 09:46:07 [main] INFO  c.h.d.controller.UserController - Fetching user with ID: 969ecb09-6db6-4407-b8b2-388d4ab23a98
+2025-06-17 09:46:07 [main] INFO  c.h.d.controller.UserController - User fetched: com.hcltech.doctorpatient.dto.UserDTO@53cba89f
+2025-06-17 09:46:08 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-06-17 09:46:08 [main] INFO  c.h.d.c.DoctorControllerTest - Starting DoctorControllerTest using Java 21.0.4 with PID 33608 (started by vaddivijaya.lakshmi in C:\Users\vaddivijaya.lakshmi\IdeaProjects\CapstoneProject\DoctorPatientService)
+2025-06-17 09:46:08 [main] DEBUG c.h.d.c.DoctorControllerTest - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-06-17 09:46:08 [main] INFO  c.h.d.c.DoctorControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-06-17 09:46:08 [main] TRACE o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@7c1adb8a}
+2025-06-17 09:46:08 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.hcltech.doctorpatient.service.JpaUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-06-17 09:46:08 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-17 09:46:08 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-17 09:46:08 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: affb7ea6-210b-467c-b4c7-4619aab3c8a6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-17 09:46:08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-06-17 09:46:08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-06-17 09:46:08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-06-17 09:46:08 [main] INFO  c.h.d.c.DoctorControllerTest - Started DoctorControllerTest in 0.51 seconds (process running for 15.648)
+2025-06-17 09:46:08 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:08 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:08 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:08 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:08 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@35c95587]
+2025-06-17 09:46:08 [main] INFO  c.h.d.controller.DoctorController - Updating doctor with ID: ed67aade-fb5d-41e6-ae25-def05b0ee6d7
+2025-06-17 09:46:08 [main] DEBUG c.h.d.controller.DoctorController - Doctor updated successfully: DoctorResponseDto(doctorId=ed67aade-fb5d-41e6-ae25-def05b0ee6d7, name=Dr. Updated, mobileNumber=9999999999, experience=20 years, specialist=Orthopedic)
+2025-06-17 09:46:08 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:08 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:08 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:08 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:08 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@293988dc]
+2025-06-17 09:46:08 [main] INFO  c.h.d.controller.DoctorController - Deleting doctor with ID: a722583c-d3e8-44d3-a869-5fa797d4b5b6
+2025-06-17 09:46:08 [main] DEBUG c.h.d.controller.DoctorController - Doctor deleted successfully: a722583c-d3e8-44d3-a869-5fa797d4b5b6
+2025-06-17 09:46:08 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:08 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:08 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:08 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:08 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@441798ce]
+2025-06-17 09:46:08 [main] INFO  c.h.d.controller.DoctorController - Fetching doctor by ID: e1073d1f-740f-4726-a4e9-de96ab90575f
+2025-06-17 09:46:08 [main] DEBUG c.h.d.controller.DoctorController - Doctor details retrieved: DoctorResponseDto(doctorId=e1073d1f-740f-4726-a4e9-de96ab90575f, name=Dr. Clara, mobileNumber=9988776655, experience=15 years, specialist=Oncologist)
+2025-06-17 09:46:08 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:08 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:08 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:08 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:08 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@8fd3eee]
+2025-06-17 09:46:08 [main] INFO  c.h.d.controller.DoctorController - Fetching all doctors
+2025-06-17 09:46:08 [main] DEBUG c.h.d.controller.DoctorController - Total doctors fetched: 2
+2025-06-17 09:46:08 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:08 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:08 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:08 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:08 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@26c349fc]
+2025-06-17 09:46:08 [main] INFO  c.h.d.controller.DoctorController - Creating doctor profile for userId: ec094359-e59c-4d59-848d-5a20920deb11
+2025-06-17 09:46:08 [main] DEBUG c.h.d.controller.DoctorController - Doctor created with ID: ec094359-e59c-4d59-848d-5a20920deb11
+2025-06-17 09:46:09 [main] ERROR c.h.d.service.PatientService - User Not found with Id  :{0}
+2025-06-17 09:46:09 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-06-17 09:46:09 [main] INFO  c.h.d.c.DiseaseControllerTest - Starting DiseaseControllerTest using Java 21.0.4 with PID 33608 (started by vaddivijaya.lakshmi in C:\Users\vaddivijaya.lakshmi\IdeaProjects\CapstoneProject\DoctorPatientService)
+2025-06-17 09:46:09 [main] DEBUG c.h.d.c.DiseaseControllerTest - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-06-17 09:46:09 [main] INFO  c.h.d.c.DiseaseControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-06-17 09:46:09 [main] TRACE o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@1a262e93}
+2025-06-17 09:46:09 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.hcltech.doctorpatient.service.JpaUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-06-17 09:46:09 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-17 09:46:09 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-17 09:46:09 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 46b8562c-4218-4ad5-8e4d-2cc70324bfb5
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-17 09:46:09 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-06-17 09:46:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-06-17 09:46:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-06-17 09:46:09 [main] INFO  c.h.d.c.DiseaseControllerTest - Started DiseaseControllerTest in 0.372 seconds (process running for 16.559)
+2025-06-17 09:46:09 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:09 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:09 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:09 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:09 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@5e59844f]
+2025-06-17 09:46:09 [main] INFO  c.h.d.controller.DiseaseController - Fetching all diseases
+2025-06-17 09:46:09 [main] DEBUG c.h.d.controller.DiseaseController - Total diseases fetched: 2
+2025-06-17 09:46:09 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:09 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:09 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:09 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:09 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@43376a03]
+2025-06-17 09:46:09 [main] INFO  c.h.d.controller.DiseaseController - Deleting disease with ID: 3256f07a-ba19-4145-b105-8f686eed569a
+2025-06-17 09:46:09 [main] DEBUG c.h.d.controller.DiseaseController - Disease deleted successfully for ID: 3256f07a-ba19-4145-b105-8f686eed569a
+2025-06-17 09:46:09 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:09 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:09 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:09 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:09 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@53b10e9a]
+2025-06-17 09:46:09 [main] INFO  c.h.d.controller.DiseaseController - Fetching disease by ID: 8a38948e-d83a-48a9-87c2-32b23faf78dd
+2025-06-17 09:46:09 [main] DEBUG c.h.d.controller.DiseaseController - Disease details retrieved: DiseaseDTO(diseaseId=8a38948e-d83a-48a9-87c2-32b23faf78dd, diseaseName=Flu, specializatonName=Cardiology)
+2025-06-17 09:46:09 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:09 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:09 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:09 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:09 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@7a88e6a9]
+2025-06-17 09:46:09 [main] INFO  c.h.d.controller.DiseaseController - Creating new disease entry: Flu
+2025-06-17 09:46:09 [main] DEBUG c.h.d.controller.DiseaseController - Disease created successfully: DiseaseDTO(diseaseId=a0c15ab4-c5b8-4d43-8d7e-c6f469fe6cd1, diseaseName=Flu, specializatonName=Cardiology)
+2025-06-17 09:46:09 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-06-17 09:46:09 [main] INFO  c.h.d.c.PatientControllerTest - Starting PatientControllerTest using Java 21.0.4 with PID 33608 (started by vaddivijaya.lakshmi in C:\Users\vaddivijaya.lakshmi\IdeaProjects\CapstoneProject\DoctorPatientService)
+2025-06-17 09:46:09 [main] DEBUG c.h.d.c.PatientControllerTest - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-06-17 09:46:09 [main] INFO  c.h.d.c.PatientControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-06-17 09:46:10 [main] TRACE o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@200ef05b}
+2025-06-17 09:46:10 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.hcltech.doctorpatient.service.JpaUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2025-06-17 09:46:10 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-17 09:46:10 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-17 09:46:10 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6599fb40-b653-4873-8cb7-be37348c10f8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-17 09:46:10 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-06-17 09:46:10 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-06-17 09:46:10 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-06-17 09:46:10 [main] INFO  c.h.d.c.PatientControllerTest - Started PatientControllerTest in 0.372 seconds (process running for 17.099)
+2025-06-17 09:46:10 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:10 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:10 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:10 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:10 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@2fd79ac6]
+2025-06-17 09:46:10 [main] INFO  c.h.d.controller.PatientController - Fetching patient with ID: 03d2fa4b-838f-4a20-a18a-3c4cd428a09b
+2025-06-17 09:46:10 [main] INFO  c.h.d.controller.PatientController - Patient fetched: PatientResponseDto(id=null, name=null, mobileNumber=null, age=28, bloodGroup=AB+, gender=Male)
+2025-06-17 09:46:10 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:10 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:10 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:10 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:10 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=admin, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@4e881e14]
+2025-06-17 09:46:10 [main] INFO  c.h.d.controller.PatientController - Creating patient with reference ID: a996f83f-edb6-48b7-973b-9a0167aced88
+2025-06-17 09:46:10 [main] INFO  c.h.d.controller.PatientController - Patient created with ID: null
+2025-06-17 09:46:10 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:10 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:10 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:10 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:10 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@64078e6a]
+2025-06-17 09:46:10 [main] INFO  c.h.d.controller.PatientController - Fetching all patients
+2025-06-17 09:46:10 [main] INFO  c.h.d.controller.PatientController - Total patients fetched: 2
+2025-06-17 09:46:10 [main] INFO  c.h.d.controller.PatientController - Updating patient with ID: b3297687-a065-4303-aa8c-f257ab99db46
+2025-06-17 09:46:10 [main] INFO  c.h.d.controller.PatientController - Patient updated successfully: PatientResponseDto(id=null, name=null, mobileNumber=null, age=28, bloodGroup=O+, gender=Female)
+2025-06-17 09:46:10 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2025-06-17 09:46:10 [main] TRACE o.s.s.w.c.HttpSessionSecurityContextRepository - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:10 [main] TRACE o.s.s.w.c.SupplierDeferredSecurityContext - Created SecurityContextImpl [Null authentication]
+2025-06-17 09:46:10 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Created HttpSession as SecurityContext is non-default
+2025-06-17 09:46:10 [main] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]] to HttpSession [org.springframework.mock.web.MockHttpSession@6859f102]
+2025-06-17 09:46:10 [main] INFO  c.h.d.controller.PatientController - Deleting patient with ID: 94492d82-974a-4c1a-b4ef-94700b55d3c2
+2025-06-17 09:46:10 [main] INFO  c.h.d.controller.PatientController - Patient deleted successfully with ID: 94492d82-974a-4c1a-b4ef-94700b55d3c2
+2025-06-17 09:46:10 [main] INFO  c.h.d.c.AuthenticationController - Login attempt for username: 1234567890
+2025-06-17 09:46:10 [main] DEBUG c.h.d.c.AuthenticationController - Login successful for username: 1234567890
+2025-06-17 09:46:10 [main] INFO  c.h.d.c.AuthenticationController - Logout attempt for username: 1234567890
+2025-06-17 09:46:10 [main] DEBUG c.h.d.c.AuthenticationController - Security context cleared for logout
+2025-06-17 09:46:10 [main] INFO  c.h.d.c.AuthenticationController - Logout successful for username: 1234567890
+2025-06-17 09:46:10 [main] INFO  c.h.d.c.AuthenticationController - Logout attempt for username: 1234567890
+2025-06-17 09:46:10 [main] WARN  c.h.d.c.AuthenticationController - Logout failed due to missing or invalid JWT token
+2025-06-17 09:46:11 [main] ERROR c.h.d.c.SpecializationController - Doctor not found at Id: 50481eea-16c1-49ba-9023-351c27d525ce

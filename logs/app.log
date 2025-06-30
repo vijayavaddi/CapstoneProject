@@ -1,0 +1,7 @@
+2025-06-27T09:08:23.121+05:30  WARN 11920 --- [DoctorPatientService] [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=12h55m15s762ms911µs999ns).
+2025-06-27T15:17:39.472+05:30  WARN 11920 --- [DoctorPatientService] [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=6h1m45s338ms874µs901ns).
+2025-06-27T15:43:42.603+05:30  INFO 11920 --- [DoctorPatientService] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-27T15:43:42.675+05:30  INFO 11920 --- [DoctorPatientService] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-27T15:43:42.794+05:30  INFO 11920 --- [DoctorPatientService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-27T15:43:42.853+05:30  INFO 11920 --- [DoctorPatientService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2025-06-27T15:43:42.900+05:30  INFO 11920 --- [DoctorPatientService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
